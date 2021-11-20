@@ -14,4 +14,12 @@
     <PackageReference Include="coverlet.collector" Version="3.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CableConnection.Shared\CableConnection.Shared.csproj" />
+    <ProjectReference Include="..\CableConnection.Domain\CableConnection.Domain.csproj" />
+    <ProjectReference Include="..\CableConnection.Controller\CableConnection.Controller.csproj" />
+    <ProjectReference Include="..\CableConnection.Model\CableConnection.Model.csproj" />
+    <ProjectReference Include="..\CableConnection.View\CableConnection.View.csproj" />
+  </ItemGroup>
+
 </Project>
