@@ -3,6 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CableConnection.Domain", "CableConnection.Domain\CableConnection.Domain.csproj", "{E8A573A2-6899-4AF4-BEA1-D970E9432034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CableConnection.Shared", "CableConnection.Shared\CableConnection.Shared.csproj", "{1F0C2526-3717-4076-8BB8-C35E4395F71A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CableConnection.Controller", "CableConnection.Controller\CableConnection.Controller.csproj", "{F1C3EFF0-3630-4366-BC3F-B24C248FB399}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CableConnection.Model", "CableConnection.Model\CableConnection.Model.csproj", "{91A82032-343A-46FF-B86D-787B899BDFA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CableConnection.Tests", "CableConnection.Tests\CableConnection.Tests.csproj", "{9E1852D9-4277-43D9-AEED-30FC71C67772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CableConnection.View", "CableConnection.View\CableConnection.View.csproj", "{26AE29F1-35D9-4E8B-95B0-EC1FFA8B0803}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +22,31 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8A573A2-6899-4AF4-BEA1-D970E9432034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A573A2-6899-4AF4-BEA1-D970E9432034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A573A2-6899-4AF4-BEA1-D970E9432034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A573A2-6899-4AF4-BEA1-D970E9432034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F0C2526-3717-4076-8BB8-C35E4395F71A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0C2526-3717-4076-8BB8-C35E4395F71A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0C2526-3717-4076-8BB8-C35E4395F71A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0C2526-3717-4076-8BB8-C35E4395F71A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C3EFF0-3630-4366-BC3F-B24C248FB399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C3EFF0-3630-4366-BC3F-B24C248FB399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C3EFF0-3630-4366-BC3F-B24C248FB399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C3EFF0-3630-4366-BC3F-B24C248FB399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91A82032-343A-46FF-B86D-787B899BDFA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A82032-343A-46FF-B86D-787B899BDFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A82032-343A-46FF-B86D-787B899BDFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A82032-343A-46FF-B86D-787B899BDFA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E1852D9-4277-43D9-AEED-30FC71C67772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E1852D9-4277-43D9-AEED-30FC71C67772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E1852D9-4277-43D9-AEED-30FC71C67772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E1852D9-4277-43D9-AEED-30FC71C67772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26AE29F1-35D9-4E8B-95B0-EC1FFA8B0803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26AE29F1-35D9-4E8B-95B0-EC1FFA8B0803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26AE29F1-35D9-4E8B-95B0-EC1FFA8B0803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26AE29F1-35D9-4E8B-95B0-EC1FFA8B0803}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
